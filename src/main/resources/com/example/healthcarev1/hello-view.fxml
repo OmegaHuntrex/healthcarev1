@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.healthcarev1.MainController">
+   <children>
+      <AnchorPane layoutX="531.0" layoutY="48.0" prefHeight="247.0" prefWidth="196.0">
+         <children>
+            <ChoiceBox fx:id="calendarcheckbox" layoutX="14.0" layoutY="8.0" prefHeight="25.0" prefWidth="72.0" />
+            <ChoiceBox layoutX="98.0" layoutY="8.0" prefHeight="26.0" prefWidth="80.0" />
+            <Button fx:id="calendarone" layoutX="17.0" layoutY="50.0" minHeight="18.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" text="                                        1  " />
+            <Button fx:id="calendartwo" layoutX="17.0" layoutY="80.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" text="2  3   4   5   6   7    8" />
+            <Button fx:id="calendrathree" layoutX="17.0" layoutY="110.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" text="9  10  11  12  13  14   15" />
+            <Button fx:id="calendarfour" layoutX="17.0" layoutY="140.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" text="16  17  18  19  20  21  22" />
+            <Button fx:id="calendarfive" layoutX="17.0" layoutY="170.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" text="23  24  25  26  27  28  29" />
+            <Button fx:id="calendarsix" layoutX="17.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="162.0" text="30 31                                 " />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="584.0" prefWidth="451.0">
+         <children>
+            <ScrollPane layoutY="50.0" prefHeight="537.0" prefWidth="451.0">
+               <content>
+                  <AnchorPane prefHeight="640.0" prefWidth="459.0">
+                     <children>
+                        <Button fx:id="mondeyfirstlinebutton" layoutX="51.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandfirstlinebutton" layoutX="105.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayfirstlinebutton" layoutX="159.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayfirstlinebutton" layoutX="213.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayfirstlinebutton" layoutX="267.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayfirstlinebutton" layoutX="321.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayfirstlinebutton" layoutX="375.0" layoutY="14.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeysecondlinebutton" layoutX="51.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeythirdlinebutton" layoutX="51.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeyfourthlinebutton" layoutX="51.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeyfivelinebutton" layoutX="51.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandsecondlinebutton" layoutX="105.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeysixlinebutton" layoutX="51.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeysevenlinebutton" layoutX="51.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="mondayeightlinebutton" layoutX="51.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeyninelinebutton" layoutX="51.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="moneytenlinebutton" layoutX="51.0" layoutY="284.0" mnemonicParsing="false" />
+                        <Button fx:id="mondayelevenlinebutton" layoutX="51.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="mondaytwelflinebutton" layoutX="51.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="mondaythirteenlinebutton" layoutX="51.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="mondayfourteenlinebutton" layoutX="51.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="mondeyfifteenlinebutton" layoutX="51.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="mondaysixteenline" layoutX="51.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="mondayseventeenlinebutton" layoutX="51.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaysecondlinebutton" layoutX="159.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaysecondlinebutton" layoutX="213.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaysecondlinebutton" layoutX="267.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaysecondlinebutton" layoutX="321.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandthirdlinebutton" layoutX="105.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandfourthlinebutton" layoutX="105.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaythirdlinebutton" layoutX="159.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaysecondlinebutton" layoutX="375.0" layoutY="44.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandfivelinebutton" layoutX="105.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaythirdlinebutton" layoutX="321.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaythirdlinebutton" layoutX="267.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaythirdlinebutton" layoutX="213.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayfourthlinebutton" layoutX="159.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayfourthlinebutton" layoutX="267.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayfourthlinebutton" layoutX="321.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaythirdlinebutton" layoutX="375.0" layoutY="74.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayfourthlinebutton" layoutX="375.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayfivelinebutton" layoutX="159.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandsixlinebutton" layoutX="105.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandsevenlinebutton" layoutX="105.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandeightlinebutton" layoutX="105.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandninelinebutton" layoutX="105.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandtenlinebutton" layoutX="105.0" layoutY="285.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaysixlinebutton" layoutX="159.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayfivelinebutton" layoutX="213.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayfivelinebutton" layoutX="267.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayfivelinebutton" layoutX="321.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayfivelinebutton" layoutX="375.0" layoutY="134.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaysevenlinebutton" layoutX="159.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayeightlinebutton" layoutX="159.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayninelinebutton" layoutX="159.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaytenlinebutton" layoutX="159.0" layoutY="284.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayelevenlinebutton" layoutX="159.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaytwelflinebutton" layoutX="159.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaythirteenlinebutton" layoutX="159.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayfourteenlinebutton" layoutX="159.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayfifteenlinebutton" layoutX="159.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaysixteenline" layoutX="159.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayseventeenlinebutton" layoutX="159.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandelevenlinebutton" layoutX="105.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaysixlinebutton" layoutX="213.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandtwelflinebutton" layoutX="105.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandthirteenlinebutton" layoutX="105.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandfourteenlinebutton" layoutX="105.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandfifteenlinebutton" layoutX="105.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandsixteenline" layoutX="105.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandseventeenlinebutton" layoutX="105.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaysixlinebutton" layoutX="375.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaysevenlinebutton" layoutX="375.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayeightlinebutton" layoutX="375.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayninelinebutton" layoutX="375.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaytenlinebutton" layoutX="375.0" layoutY="284.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayelevenlinebutton" layoutX="375.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaysixlinebutton" layoutX="321.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaysixlinebutton" layoutX="267.0" layoutY="164.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaysevenlinebutton" layoutX="321.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaytwelflinebutton" layoutX="375.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaythirteenlinebutton" layoutX="375.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayfourteenlinebutton" layoutX="375.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayfifteenlinebutton" layoutX="375.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaysixteenline" layoutX="375.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayseventeenlinebutton" layoutX="375.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaysevenlinebutton" layoutX="213.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaysevenlinebutton" layoutX="267.0" layoutY="194.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayeightlinebutton" layoutX="213.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayeightlinebutton" layoutX="267.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayeightlinebutton" layoutX="321.0" layoutY="224.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayninelinebutton" layoutX="213.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayninelinebutton" layoutX="267.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayninelinebutton" layoutX="321.0" layoutY="254.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaytenlinebutton" layoutX="213.0" layoutY="284.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaytenlinebutton" layoutX="267.0" layoutY="284.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaytenlinebutton" layoutX="321.0" layoutY="284.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayelevenlinebutton" layoutX="321.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayelevenlinebutton" layoutX="267.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayelevenlinebutton" layoutX="213.0" layoutY="314.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaytwelflinebutton" layoutX="321.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaythirteenlinebutton" layoutX="321.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayfourteenlinebutton" layoutX="321.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayfifteenlinebutton" layoutX="321.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaysixteenline" layoutX="321.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayseventeenlinebutton" layoutX="321.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaytwelflinebutton" layoutX="213.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaytwelflinebutton" layoutX="267.0" layoutY="344.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaythirteenlinebutton" layoutX="213.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaythirteenlinebutton" layoutX="267.0" layoutY="374.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayfourteenlinebutton" layoutX="213.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayfourteenlinebutton" layoutX="267.0" layoutY="404.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayfifteenlinebutton" layoutX="213.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayfifteenlinebutton" layoutX="267.0" layoutY="434.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaysixteenline" layoutX="213.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaysixteenline" layoutX="267.0" layoutY="464.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayseventeenlinebutton" layoutX="213.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayseventeenlinebutton" layoutX="267.0" layoutY="494.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdayfourthlinebutton" layoutX="213.0" layoutY="104.0" mnemonicParsing="false" />
+                        <Button fx:id="mondayeighteenlinebutton" layoutX="51.0" layoutY="524.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandeighteenlinebutton" layoutX="105.0" layoutY="524.0" mnemonicParsing="false" />
+                        <Button fx:id="mondaynineteenlinebutton" layoutX="51.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdayeighteenlinebutton" layoutX="158.0" layoutY="524.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="55.0" />
+                        <Button fx:id="therthdayeighteenlinebutton" layoutX="213.0" layoutY="524.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridayeighteenlinebutton" layoutX="267.0" layoutY="524.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandnineteenlinebutton" layoutX="105.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdayeighteenlinebutton" layoutX="321.0" layoutY="524.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaynineteenlinebutton" layoutX="159.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="sundayeighteenlinebutton" layoutX="375.0" layoutY="524.0" mnemonicParsing="false" />
+                        <Button fx:id="therthday" layoutX="213.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaynineteenlinebutton" layoutX="267.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaynineteenlinebutton" layoutX="321.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaynineteenlinebutton" layoutX="375.0" layoutY="554.0" mnemonicParsing="false" />
+                        <Button fx:id="mondaytwentylinebutton" layoutX="51.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Button fx:id="tuestandtwentylinebutton" layoutX="105.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Button fx:id="wednasdaytwentylinebutton" layoutX="159.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Button fx:id="therthdaytwentylinebutton" layoutX="213.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Button fx:id="Fridaytwentylinebutton" layoutX="267.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Button fx:id="saturdaytwentylinebutton" layoutX="321.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Button fx:id="sundaytwentylinebutton" layoutX="375.0" layoutY="584.0" mnemonicParsing="false" />
+                        <Label layoutX="15.0" layoutY="20.0" text="8:00" />
+                        <Label layoutX="14.0" layoutY="50.0" text="8:30" />
+                        <Label layoutX="15.0" layoutY="80.0" text="9:00" />
+                        <Label layoutX="14.0" layoutY="110.0" text="9:30" />
+                        <Label layoutX="10.0" layoutY="140.0" text="10:00" />
+                        <Label layoutX="11.0" layoutY="170.0" text="10:30" />
+                        <Label layoutX="11.0" layoutY="200.0" text="11:30" />
+                        <Label layoutX="11.0" layoutY="230.0" text="12:00" />
+                        <Label layoutX="10.0" layoutY="260.0" text="12:30" />
+                        <Label layoutX="11.0" layoutY="290.0" text="13:00" />
+                        <Label layoutX="10.0" layoutY="320.0" text="13:30" />
+                        <Label layoutX="10.0" layoutY="350.0" text="14:00" />
+                        <Label layoutX="11.0" layoutY="380.0" text="14:30" />
+                        <Label layoutX="11.0" layoutY="410.0" text="15:00" />
+                        <Label layoutX="10.0" layoutY="440.0" text="15:30" />
+                        <Label layoutX="10.0" layoutY="470.0" text="16:00" />
+                        <Label layoutX="11.0" layoutY="500.0" text="16:30" />
+                        <Label layoutX="11.0" layoutY="530.0" text="17:00" />
+                        <Label layoutX="11.0" layoutY="560.0" text="17:30" />
+                        <Label layoutX="11.0" layoutY="590.0" text="18:00" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="49.0" prefHeight="58.0" prefWidth="390.0" text="Пн.         | Вт           |Ср           | Чт          |Пт         |Сб            |Вс           | " />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="514.0" layoutY="367.0" prefHeight="163.0" prefWidth="213.0">
+         <children>
+            <Label fx:id="name" layoutX="25.0" layoutY="111.0" prefHeight="18.0" prefWidth="0.0" />
+            <Label fx:id="family" layoutX="145.0" layoutY="111.0" prefHeight="18.0" prefWidth="63.0" />
+            <Button fx:id="loginbutton" layoutX="159.0" layoutY="129.0" mnemonicParsing="false" text="Увійти" textOverrun="CLIP" />
+
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
